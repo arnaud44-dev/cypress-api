@@ -1,3 +1,2 @@
-# cypress-api
-tests api with cypress
-npx cypress open
+# cypress-api-tutorial
+Repository created in the article REST API Tests with Cypress

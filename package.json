@@ -1,24 +1,25 @@
 {
-  "name": "cypress-api",
+  "name": "cypress-api-tutorial",
   "version": "1.0.0",
-  "description": "tests api with cypress",
+  "description": "Repository created in the article REST API Tests with Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress: open": "./node_modules/.bin/cypress open",
-    "cypress: run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arnaud44-dev/cypress-api.git"
+    "url": "git+https://github.com/murillowelsi/cypress-api-tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arnaud44-dev/cypress-api/issues"
+    "url": "https://github.com/murillowelsi/cypress-api-tutorial/issues"
   },
-  "homepage": "https://github.com/arnaud44-dev/cypress-api#readme",
+  "homepage": "https://github.com/murillowelsi/cypress-api-tutorial#readme",
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^7.3.0",
+    "faker": "^5.5.3"
   }
 }
