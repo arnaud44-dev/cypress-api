@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "./node_modules/.bin/cypress open",
-    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js"
+    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "devDependencies": {
     "cypress": "^7.3.0",
     "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
   }
 }

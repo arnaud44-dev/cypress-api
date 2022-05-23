@@ -1,4 +1,12 @@
 {
   "baseUrl": "https://serverest.dev",
-  "video": false
+  "video": false,
+  "reporter": "mochawesome",
+  "reporterOptions":
+  {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": true,
+      "json": true
+  }
 }
